@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pendaftaran Akun.css">
+    <title>Register</title>
+</head>
+<body>
+	<nav class="navbar">
+		<img src="Logo.png"> 
+	</nav>
+    <div class="container">
+        <form class="register-form">
+            <h2>Pendaftaran Akun</h2>
+            <p>Yuk, daftarkan akunmu sekarang juga!</p>
+
+            <label for="name">Nama Lengkap <span class="bintang">*</span></label>
+            <input type="text" id="name">
+
+            <label for="email">E-Mail <span class="bintang">*</span></label>
+            <input type="email" id="email">
+
+            <label for="phone">No. Hp <span class="bintang">*</span></label>
+            <div class="phone-input">
+                <div class="flag-indonesia"></div>
+                <select id="country-code">
+                    <option value="+62">+62</option>
+					<option value="+63">+63</option>
+                </select>
+                <input type="tel" id="phone" class="noHP">
+            </div>
+
+            <label for="password">Kata Sandi <span class="bintang">*</span></label>
+            <input type="password" id="password">
+			<i class='bx bx-low-vision'></i>
+
+            <label for="confirm-password">Konfirmasi Kata Sandi <span class="bintang">*</span></label>
+            <input type="password" id="confirm-password">
+			<i class='bx bx-low-vision'></i>
+
+            <a href="#" class="forgot-password">Lupa Password?</a>
+
+            <button type="submit" class="register-btn">Daftar</button>
+            <button type="button" class="login-btn">Masuk</button>
+			<div class="atau">
+				<hr>
+				<p class="or-text">atau</p>
+			</div>
+            <button type="button" class="google-btn">
+                <img src="google.png" alt="Google Icon">
+                Daftar dengan Google
+            </button>
+        </form>
+    </div>
+</body>
+</html>
