@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>Rapi &<br> Sistematis.</h1>
+        </div>
+
+        <div class="right-panel">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+                <div class="profile-info">
+                    <h3>Malik Abdul Hakim</h3>
+                    <p>Junior Programmer</p>
+                </div>
+            </div>
+
+            <h2>Mau Belajar Materi apa Hari Ini?</h2>
+            <div class="input-section">
+                <input type="text" id="task-input" placeholder="Masukkan Materi">
+                <button id="add-task-btn">+</button>
+            </div>
+            <div class="sub-input-section">
+                <input type="text" id="priority-input" placeholder="Prioritas">
+                <input type="date" id="date-input">
+            </div>
+
+            <h2>Daftar Pekerjaan Hari Ini</h2>
+            <ul id="task-list"></ul>
+
+            <h2>Pekerjaan Selesai</h2>
+            <ul id="done-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
